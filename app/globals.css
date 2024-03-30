@@ -17,13 +17,22 @@ body {
   align-items: center;
   background-color: rgb(101 177 89);
   color: white;
+
   height: 100vh;
   gap: 70px;
   padding: 20px;
 }
 
-@media screen and (max-width: 900px) {
+.project-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+@media screen and (max-width: 1030px) {
   .infobox {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
