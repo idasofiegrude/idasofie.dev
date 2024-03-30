@@ -9,7 +9,7 @@ export default function ProjectList() {
         <div>
           <Image
             alt="site icon"
-            src="/heart generic flat.png"
+            src="/HeartGenericFlat.png"
             width={150}
             height={1500}
           />
@@ -24,7 +24,7 @@ export default function ProjectList() {
         <div>
           <Image
             alt="icon for the site"
-            src="/bag.png"
+            src="/Bag.png"
             width={150}
             height={1500}
           />
