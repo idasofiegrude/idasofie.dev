@@ -14,7 +14,7 @@ export default function Info() {
             Ida Sofie Grude
           </h1>
           <h3 className="text-3xl font-bold  text-white/75">
-            post@idasofie.dev
+            hei@idasofie.dev
           </h3>
         </div>
       </section>
