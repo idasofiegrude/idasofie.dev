@@ -5,12 +5,7 @@ export default function Info() {
     <div>
       <section className="infobox">
         <div>
-          <Image
-            alt="profile picture"
-            src="/solar.png"
-            width={300}
-            height={300}
-          />
+          <Image alt="Splash Image" src="/solar.png" width={300} height={300} />
         </div>
         <div className="pl-10">
           <h2 className="text-4xl font-bold text-white/75">Utvikler</h2>

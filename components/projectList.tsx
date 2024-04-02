@@ -11,7 +11,7 @@ export default function ProjectList() {
             alt="site icon"
             src="/HeartGenericFlat.png"
             width={150}
-            height={1500}
+            height={150}
           />
         </div>
         <div>TAKKNEMLEG.NO</div>
@@ -26,7 +26,7 @@ export default function ProjectList() {
             alt="icon for the site"
             src="/Bag.png"
             width={150}
-            height={1500}
+            height={150}
           />
         </div>
         <div className="p-4">BYGA.IDASOFIE.DEV</div>
@@ -40,9 +40,19 @@ export default function ProjectList() {
           alt="icon for the site"
           src="/github-logo.png"
           width={150}
-          height={1500}
+          height={150}
         />
         <div className="p-4">GITHUB.COM/IDASOFIEGRUDE</div>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/ida-sofie-grude-4a38b5231/"
+        className="project-card"
+        target="_blank"
+      >
+        <div>
+          <Image alt="site icon" src="/linkedin.png" width={200} height={200} />
+        </div>
+        <div>LINKED IN</div>
       </a>
     </section>
   );
