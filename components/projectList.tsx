@@ -2,20 +2,10 @@ import Image from "next/image";
 
 export default function ProjectList() {
   return (
+    <>
     <section className="project-list">
       <h3 className="text-3xl text-center p-6">Mine prosjekter</h3>
 
-      <a href="https://takknemleg.no/" className="project-card" target="_blank">
-        <div>
-          <Image
-            alt="site icon"
-            src="/HeartGenericFlat.png"
-            width={150}
-            height={150}
-          />
-        </div>
-        <div>TAKKNEMLEG.NO</div>
-      </a>
       <a
         href="https://byga.idasofie.dev/"
         className="project-card"
@@ -44,16 +34,18 @@ export default function ProjectList() {
         />
         <div className="p-4">GITHUB.COM/IDASOFIEGRUDE</div>
       </a>
+    </section>
+
+    <section className="links-bar">
       <a
         href="https://www.linkedin.com/in/ida-sofie-grude-4a38b5231/"
-        className="project-card"
+        className="links-bar-item"
         target="_blank"
       >
-        <div>
-          <Image alt="site icon" src="/linkedin.png" width={200} height={200} />
-        </div>
-        <div>LINKED IN</div>
+        <Image alt="LinkedIn" src="/linkedin.png" width={150} height={150} />
+        LinkedIn
       </a>
     </section>
+    </>
   );
 }
